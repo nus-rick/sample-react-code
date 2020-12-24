@@ -1,0 +1,13 @@
+{
+  // https://yarnpkg.com/lang/en/docs/selective-version-resolutions/
+  "resolutions": {
+    // This config will resolve issue https://github.com/kylecorbelli/redux-token-auth/issues/56
+    "react-redux": "^7.1.1"
+  },
+  "browserslist": {
+    "production": [
+      // https://create-react-app.dev/docs/supported-browsers-features#supported-browsers
+      "not ie <= 8",
+    ],
+  }
+}

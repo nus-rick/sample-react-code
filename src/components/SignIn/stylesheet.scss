@@ -1,0 +1,14 @@
+.sign-in {
+  max-width: 550px;
+  margin: auto;
+  padding: 30px;
+  background-color: #fbfbfe;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  h4 {
+    text-align: center;
+  }
+  &.bounceInDown {
+    animation-duration: 0.5s;
+  }
+}

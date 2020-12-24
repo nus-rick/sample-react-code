@@ -1,0 +1,24 @@
+.toast {
+  position: absolute;
+  top: 63px;
+  right: 20px;
+  min-width: 300px;
+  &.show {
+    opacity: 0.7 !important;
+  }
+  * {
+    color: black !important;
+  }
+  &.error {
+    background-color: #e39da4;
+    * {
+      background-color: #e39da4;
+    }
+  }
+  &.info {
+    background-color: #a5d2a5;
+    * {
+      background-color: #a5d2a5;
+    }
+  }
+}

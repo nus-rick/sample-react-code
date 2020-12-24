@@ -1,0 +1,33 @@
+.cursor-pointer{
+  cursor: pointer;
+}
+
+h4.title {
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+i {
+  color: black;
+  &:hover {
+    color: #17a2b8;
+  }
+}
+
+button i {
+  color: white;
+}
+
+.tag-link:hover {
+  background-color: black;
+}
+
+.empty-table {
+  color: grey;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.fadeIn {
+  animation-duration: 0.5s;
+}
